@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Entry level application
+ * main - Entry level appluication
  * Return: Always (0) (Sucess)
  */
 int main(void)
