@@ -3,6 +3,7 @@
 /**
  * print_square - a square, followed by a new line.
  * @size: size of the square of te square
+ * Return: void
  */
 
 void print_square(int size)
@@ -20,7 +21,7 @@ void print_square(int size)
 			{
 				_putchar('#');
 			}
-			_putchar('\n')
+			_putchar('\n');
 		}
 	}
 }
