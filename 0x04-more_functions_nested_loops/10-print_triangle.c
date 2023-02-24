@@ -3,7 +3,6 @@
 /**
  * print_triangle - a triangle, followed by a new line.
  * @size: size of the triangle
- * EDWIN KOFI AFFUL(ESTHER)
  */
 void print_triangle(int size)
 {
