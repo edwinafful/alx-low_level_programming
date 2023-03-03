@@ -29,7 +29,7 @@ void print_buffer(char *b, int size)
 				printf("  ");
 			if (i % 2)
 			{
-				printf("");
+				printf(" ");
 			}
 		}
 		for (i = 0; i < j; i++)
@@ -38,7 +38,7 @@ void print_buffer(char *b, int size)
 
 			if (c < 32 || c > 132)
 			{
-				c = '.';
+				c = ' .';
 			}
 			printf("%c", c);
 		}
