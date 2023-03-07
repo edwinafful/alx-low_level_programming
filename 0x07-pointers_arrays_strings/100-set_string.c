@@ -6,5 +6,5 @@
  */
 void set_string(char **s, char *to)
 {
-	*s = 0;
+	*s = to;
 }
