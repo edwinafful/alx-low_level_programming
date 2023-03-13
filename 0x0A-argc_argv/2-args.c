@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - print the name of the program
  * @argc: count argument
@@ -17,3 +16,6 @@ int main(int argc, char *argv[])
 		while (count < argc)
 		{
 			printf("%s\n", argv[count]);
+		}
+	}
+}
