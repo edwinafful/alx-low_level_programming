@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * alloc_grid - nested loop to make gid
@@ -31,7 +32,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (x = 0; x < height; x++)
 	{
-		for (y = 0; y < widht; y++)
+		for (y = 0; y < width; y++)
 			mee[x][y] = 0;
 	}
 	return (mee);
